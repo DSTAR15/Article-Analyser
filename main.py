@@ -1,9 +1,9 @@
 import streamlit as st
 from utils import scrape_article, summarize_text, analyze_sentiment
 
-st.title("FIN LENS")
+st.title("ARTICLE ANALYZER")
 
-url = st.text_input("Please enter Business Today URL:")
+url = st.text_input("", placeholder="Please enter Business Today URL:")
 
 if url:
     if "businesstoday.in" in url:
@@ -31,6 +31,7 @@ if url:
                     st.write(f"**Sentiment:** {label}")
                     st.write(f"**Confidence Score:** {score:.2f}")
     else:
-        st.markdown("<p style='color: red; font-weight: bold;'>ERROR MESSAGE: INVALID URL</p>", unsafe_allow_html=True)
+        st.markdown("<p style='color: red; font-weight: bold;'>&#x26A0; INVALID URL</p>", unsafe_allow_html=True)
 else:
     st.write("Please enter a valid URL to get started.")
+
