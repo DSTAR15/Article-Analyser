@@ -60,3 +60,8 @@ Project Structure -
 Conclusion - 
 
 This project demonstrates the integration of web scraping, text summarization, and sentiment analysis into a cohesive web application. By leveraging modern NLP techniques and an interactive user interface, the Article Analyzer provides a powerful tool for quickly extracting and understanding key information from financial news articles.
+
+![image](https://github.com/DSTAR15/Article-Analyser/assets/128448451/42fb88f5-3419-4c9b-a59f-ae69e9a01eef)
+![image](https://github.com/DSTAR15/Article-Analyser/assets/128448451/02b241e1-493d-48ed-a97a-573fbc6f796c)
+
+
